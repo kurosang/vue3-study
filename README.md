@@ -1,6 +1,6 @@
 # vue3-study
 
-vue3 Composition API 学习记录
+vue3 Composition API 学习记录 [中文文档](https://composition-api.vuejs.org/zh/api.html)
 
 使用：`npm run serve --src={每一节的编号}`
 
@@ -37,6 +37,20 @@ vue 2.0 生命周期对比 3.0 生命周期
 
 ### 2-4 setup 函数 计算属性 computed
 
+### 2-5 setup 函数 watchEffect
+
+### 2-6 setup 函数 watch
+
+### 2-7 模板 Refs
+
 ### 3-1 普通组件的开发与使用
+
+### 3-2 vue 组件的具名插槽 slot 的变化
+
+我们的父组件获取子组件传值，可以通过 v-slot 的自定义命名值来获取对象数据。
+
+而子组件给父组件传值，如果是传单个值，可以用 :color="color" 这样的语法来进行传值。如果要传多个数据，则可以使用 v-bind 来传一个对象出去。
+
+### 3-2 函数组件的开发与使用
 
 ---
